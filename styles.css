@@ -1,4 +1,39 @@
 body {
-    background-color: aquamarine;
+    background-color: #072227;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 }
 
+h1 {
+    font-size: 3.5rem;
+    color: #AEFEFF;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #AEFEFF;
+    text-align: center;
+}
+
+.rps-btns {
+    display: flex;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    padding: 20px 40px;
+    background-color: #AEFEFF;
+    border: none;
+
+    border-radius: 5%;
+    font-size: 1.5rem;
+}
+input:hover {
+    background-color: #4FBDBA;
+}
